@@ -24,7 +24,10 @@ Of course, this program is not meant to be taken seriously. I always wanted to l
 2. Area.py    ->  This contains all the **formulae** for **area** of 2-D shapes. (ex. : square, rectangle etc).
 3. Volume.py  ->  This contains **formulae** for both **volume** and **surface area** of 3-D shapes. (ex. : cube, cuboid etc).
 4. Functions.py -> This is basically a bridge between main file and the formula files because the values are sent to this file and then it uses the folumlea to give the result. 
-5. Icon.ico -> This is the icon for the program. 
+5. title_bar.py -> This is a class which is used to change the default title bar of PyQt apps. The default title bar is very stiff and uncustomizable. Therefore, I had to make my own titlebar.
+6. Icon.ico -> This is the icon for the program. 
+7. close.png -> This is the icon for the close button in the new title bar.
+8. minimise.png -> This is the icon for minimise button in the new title bar. 
 
 <h2>Converting to executable</h2>
 
@@ -32,6 +35,7 @@ Of course, this program is not meant to be taken seriously. I always wanted to l
 
 1. Use the Icon.ico as the icon.
 2. I recommend you to not use the --onefile argument when converting.
+3. After converting add the files "close.png", "Icon.png" & "minimise.png" in the directory where the .exe file is placed. (because pyinstaller doesn't include these files by itself.) 
 
 <h2>Conclusion</h2>
 
