@@ -12,7 +12,8 @@ This python program lets you calculate the area of many 2-D shapes and volume &a
 
 <h2>How to run?</h2>
 
-Just run the Window.py file to use the program after making sure that the libaries are installed.
+Downoad the latest release then run the setup file.
+Alternatively, you can run from the source code, run the Window.py file to use the program after making sure that the libaries are installed.
 
 <h2>Description :</h2> 
 
